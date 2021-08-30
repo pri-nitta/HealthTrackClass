@@ -3,7 +3,7 @@ package com.java;
 import java.io.Serializable;
 
 /**
- * Classe que abstrai um usuário
+ * Classe que abstrai um usuario
  * @author grupo Jarvis
  * @version 1.0
  */
@@ -16,27 +16,27 @@ public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	/**
-	 * Nome do usuário
+	 * Nome do usuario
 	 */
 	private String nome;
 	
 	/**
-	 * Sobrenome do usuário
+	 * Sobrenome do usuario
 	 */
 	private String sobrenome;
 	
 	/**
-	 * CPF do usuário
+	 * CPF do usuario
 	 */
 	private long cpf;
 	
 	/**
-	 * Email do usuário
+	 * Email do usuario
 	 */
 	private String email;
 	
 	/**
-	 * Data de nascimento do usuário
+	 * Data de nascimento do usuario
 	 */
 	private String dataNasc;
 	
@@ -45,80 +45,80 @@ public class User implements Serializable {
 	}
 	
 	/**
-	 * Verifica o nome do usuário
-	 * @return nome do usuário
+	 * Verifica o nome do usuario
+	 * @return nome do usuario
 	 */
 	public String getNome() {
 		return nome;
 	}
 	
 	/**
-	 * Altera o nome do usuário
-	 * @param nome do usuário
+	 * Altera o nome do usuario
+	 * @param nome do usuario
 	 */
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 	
 	/**
-	 * Verifica o sobrenome do usuário
-	 * @return o sobrenome do usuário
+	 * Verifica o sobrenome do usuario
+	 * @return o sobrenome do usuario
 	 */
 	public String getSobrenome() {
 		return sobrenome;
 	}
 	
 	/**
-	 * Altera o sobrenome do usuário
-	 * @param sobrenome do usuaário
+	 * Altera o sobrenome do usuario
+	 * @param sobrenome do usuario
 	 */
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
 	
 	/**
-	 * Verifica o cpf do usuário
-	 * @return o cpf do usuário
+	 * Verifica o cpf do usuario
+	 * @return o cpf do usuario
 	 */
 	public long getCpf() {
 		return cpf;
 	}
 	
 	/**
-	 * Altera o cpf do usuário
-	 * @param cpf do usuaário
+	 * Altera o cpf do usuario
+	 * @param cpf do usuario
 	 */
 	public void setCpf(long cpf) {
 		this.cpf = cpf;
 	}
 	
 	/**
-	 * Verifica o email do usuário
-	 * @return o email do usuário
+	 * Verifica o email do usuario
+	 * @return o email do usuario
 	 */
 	public String getEmail() {
 		return email;
 	}
 	
 	/**
-	 * Altera o email do usuário
-	 * @param email do usuaário
+	 * Altera o email do usuario
+	 * @param email do usuario
 	 */
 	public void setEmail(String email) {
 		this.email = email;
 	}
 	
 	/**
-	 * Verifica a data de nascimento do usuário
-	 * @return a data de nascimento do usuário
+	 * Verifica a data de nascimento do usuario
+	 * @return a data de nascimento do usuario
 	 */
 	public String getDataNasc() {
 		return dataNasc;
 	}
 	
 	/**
-	 * Altera a data de nascimento do usuário
-	 * @param data de nascimento do usuaário
+	 * Altera a data de nascimento do usuario
+	 * @param data de nascimento do usuario
 	 */
 	public void setDataNasc(String dataNasc) {
 		this.dataNasc = dataNasc;
