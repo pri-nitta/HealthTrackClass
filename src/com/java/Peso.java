@@ -26,6 +26,23 @@ public class Peso implements Serializable {
 	private int peso;
 	
 	/**
+	 * construtor padrao
+	 */
+	public Peso() {
+		
+	}
+	
+	/**
+	 * construtor peso
+	 * @param data
+	 * @param peso
+	 */
+	public Peso(String data, int peso) {
+		this.data = data;
+		this.peso = peso;
+	}
+	
+	/**
 	 * Verifica a data do registro do peso
 	 * @return data
 	 */

@@ -40,9 +40,29 @@ public class User implements Serializable {
 	 */
 	private String dataNasc;
 	
+	/**
+	 * Construtor padrao
+	 */
 	public User() {
 		
 	}
+	
+	/**
+	 * Construtor User
+	 * @param nome
+	 * @param sobrenome
+	 * @param cpf
+	 * @param email
+	 * @param dataNasc
+	 */
+	public User( String nome, String sobrenome, long cpf, String email, String dataNasc ) {
+		this.cpf = cpf;
+		this.dataNasc = dataNasc;
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.email = email;
+	}
+	
 	
 	/**
 	 * Verifica o nome do usuario

@@ -53,22 +53,39 @@ public class Teste {
 		System.out.println("=================================");
 		
 
-		//segunda classe
-		Peso peso = new Peso();
-		peso.setData("10/12/21");
-		peso.setPeso(70);
+		/**
+		 * cria uma variável usuario que extende a classe AtividadeFisica
+		 */
+		AtividadeFisica atividadeFisica = new AtividadeFisica();
 		
-		Peso peso1 = new Peso();
-		peso1.setData("20/12/21");
-		peso1.setPeso(72);
+		atividadeFisica.setDataAtividade("30/08/2021");
+		atividadeFisica.setNomeAtividade("Corrida");
+		atividadeFisica.setCaloriaAtividade("520 kcal");
+		atividadeFisica.setTempoTotalAtividade("1h");
+		
+		/**
+		 * imprime a lista de atividades do usuario
+		 */
+	System.out.println("");
+		System.out.println("ATIVIDADE FISICA");
+		System.out.println("=================================");
+		System.out.println("Data: " +atividadeFisica.getDataAtividade());
+		System.out.println("Tipo atividade: "+atividadeFisica.getDataAtividade());
+		System.out.println("Calorias gastas: "+atividadeFisica.getCaloriaAtividade());
+		System.out.println("Tempo total da atividade: "+atividadeFisica.getTempoTotalAtividade());
+		System.out.println("=================================");
+		
+		
+		atividadeFisica.setDataAtividade("01/09/2021");
+		atividadeFisica.setNomeAtividade("Musculação");
+		atividadeFisica.setCaloriaAtividade("300 kcal");
+		atividadeFisica.setTempoTotalAtividade("30 min");
 		
 		System.out.println("");
-		System.out.println("PESO");
-		System.out.println("=================================");
-		System.out.print("data: " +peso.getData());
-		System.out.println(" - Peso: "+peso.getPeso());
-		System.out.print("data: " +peso1.getData());
-		System.out.println(" - Peso: "+peso1.getPeso());
+		System.out.println("Data: " +atividadeFisica.getDataAtividade());
+		System.out.println("Tipo atividade: "+atividadeFisica.getDataAtividade());
+		System.out.println("Calorias gastas: "+atividadeFisica.getCaloriaAtividade());
+		System.out.println("Tempo total da atividade: "+atividadeFisica.getTempoTotalAtividade());
 		System.out.println("=================================");
 		
 	}
